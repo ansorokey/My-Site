@@ -1,0 +1,56 @@
+h1 {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+
+}
+
+button {
+    margin: 25px 0;
+    width: 100%;
+}
+
+.nav-bar {
+    width: 100px;
+    height: 100%;
+    float:left;
+    margin-right: 25px;
+    margin-top: 0;
+    border-right: 10px solid green;
+}
+
+.source-collection {
+    border: 2px solid green;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.source-block {
+    box-sizing: border-box;
+    width: auto;
+    height: 200px;
+    background-color: white;
+    border: 2px solid green;
+    margin: 2em;
+    position: relative;
+}
+
+.source-img {
+    box-sizing: border-box;
+    height: 200px;
+    width: 185px;
+    border: 2px solid green;
+    float: left;
+    margin-right: 0;
+}
+
+source-text {
+    box-sizing: border-box;
+    height: 200px;
+    width: auto;
+    border: 2px solid blue;
+    margin-left: 185px;
+}
