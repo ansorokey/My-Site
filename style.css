@@ -1,0 +1,68 @@
+/*Practice problems*/
+
+body{
+    background-color: #FF87CA;
+    line-height: 1.5;
+}
+.scenario {
+    background-color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+.code-text{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.problems-list{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+}
+
+.problems-window{
+    display: inline-block;
+    width: 65%;
+    height: 500px;
+    position: absolute;
+    right: 10%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.solution{
+    width: 100%;
+}
+
+.problems{
+    position: relative;
+}
+
+.hint{
+    background-color: black;
+    color: black;
+    border: 2px dotted darkgreen;
+}
+
+.hint:hover{
+    color: white;
+}
+
+.easy{
+    background-color: lightgreen;
+}
+
+.medium{
+    background-color: lightyellow;
+}
+
+.hard{
+    background-color: lightsalmon;
+}
