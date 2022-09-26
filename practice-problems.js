@@ -1,4 +1,6 @@
 $("li").click(function(event){
-    var windowSource = "/images/practice-problems/" + $(this).attr("id") + ".html";
-    $("iframe").attr("src", windowSource);
+    var imgSolution = "/images/problem-solutions/" + $(this).attr("id") + "-solution.png";
+    var imgScenario = "/images/problem-scenarios/" + $(this).attr("id") + "-scenario.png";
+    $("#scenario").attr("src", imgScenario);
+    $("#solution").attr("src", imgSolution);
 });
