@@ -4,9 +4,6 @@ body{
     background-color: #FF87CA;
     line-height: 1.5;
 }
-.scenario {
-    background-color: black;
-}
 
 .white-text{
     color: white;
@@ -21,15 +18,15 @@ body{
     width: 20%;
     height: 100%;
     position: absolute;
-    left: 5%;
+    left: 2.5%;
 }
 
 .problems-window{
     display: inline-block;
-    width: 65%;
+    width: 67.5%;
     height: 500px;
     position: absolute;
-    right: 10%;
+    right: 2.5%;
 }
 
 iframe{
@@ -37,32 +34,47 @@ iframe{
     height: 100%;
 }
 
-.solution{
-    width: 100%;
-}
-
 .problems{
     position: relative;
 }
 
-.hint{
-    background-color: black;
-    color: black;
-    border: 2px dotted darkgreen;
+.iframe img {
+    width: 100%;
 }
 
-.hint:hover{
-    color: white;
+.problem{
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .easy{
+    background-color: darkgreen;
+}
+
+.easy li:hover{
     background-color: lightgreen;
+    cursor: grab;
 }
 
 .medium{
+    background-color: darkgoldenrod;
+}
+
+.medium li:hover{
     background-color: lightyellow;
+    cursor: grab;
 }
 
 .hard{
-    background-color: lightsalmon;
+    background-color: red;
+}
+
+.hard li:hover{
+    background-color: salmon;
+    cursor: grab;
 }
