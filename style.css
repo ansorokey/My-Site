@@ -1,16 +1,40 @@
-/*Practice problems*/
+
 
 body{
     background-color: rgb(123, 0, 69);
     line-height: 1.5;
 }
 
-.white-text{
-    color: white;
+/*Navigation Bar*/
+.nav-bar{
+    background-color: black;
 }
 
+/*Cheat Sheets*/
+.cheat-sheet-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+    row-gap: 2rem;
+}
+
+.cheat-sheet-grid img{
+    width: 75%;
+}
+
+.cheat-sheet-grid div{
+    text-align: center;
+}
+
+#CS-top {
+    position: sticky;
+    top: 0;
+}
+
+/*Practice problems*/
 .code-text{
     font-family: 'Source Code Pro', monospace;
+    color: white;
 }
 
 .problems-list{
